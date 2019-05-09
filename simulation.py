@@ -79,7 +79,7 @@ def fcd2veh_info():
 
 if __name__ == '__main__':
 
-    sumo_cmd = "sumo -c conf/test0.sumocfg --fcd-output fcd.xml -W"
+    sumo_cmd = "sumo -c conf/test0.sumocfg --fcd-output conf/fcd.xml -W"
     subprocess.call(sumo_cmd, shell=True)
 
     xml2csv()
