@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+deployment.xml
+misc.xml
+modules.xml
+TrafficGYM.xml
+vcs.xml
+/.idea

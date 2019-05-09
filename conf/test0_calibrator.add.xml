@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/08/19 21:28:06 by Eclipse SUMO netedit Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="H:\CASIA\simple_shortest_routing\conf\test0.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<additional>
+    <vType id="veh_a0" speedFactor="1.20" speedDev="0.10" sigma="0.00" color="yellow"/>
+
+    <route id="rou_-gneE9_-gneE12" edges="-gneE9 gneE5 gneE12"/>
+    <route id="rou_-gneE9_gneE6" edges="-gneE9 gneE5 gneE6"/>
+    <route id="rou_-gneE9_gneE3" edges="-gneE9 -gneE8 gneE2 gneE3"/>
+    <route id="rou_-gneE9_-gneE10" edges="-gneE9 -gneE8 gneE2 -gneE10"/>
+    <route id="rou_-gneE9_-gneE7" edges="-gneE9 -gneE8 -gneE7"/>
+    <route id="rou_-gneE9_-gneE1" edges="-gneE9 -gneE8 -gneE1"/>
+    <route id="rou_-gneE9_-gneE4" edges="-gneE9 -gneE4"/>
+
+    <route id="rou_-gneE12_gneE6" edges="-gneE12 gneE6"/>
+    <route id="rou_-gneE12_gneE3" edges="-gneE12 -gneE11 gneE3"/>
+    <route id="rou_-gneE12_-gneE10" edges="-gneE12 -gneE11 -gneE10"/>
+    <route id="rou_-gneE12_-gneE7" edges="-gneE12 -gneE5 -gneE8 -gneE7"/>
+    <route id="rou_-gneE12_-gneE1" edges="-gneE12 -gneE5 -gneE8 -gneE1"/>
+    <route id="rou_-gneE12_-gneE4" edges="-gneE12 -gneE5 -gneE4"/>
+    <route id="rou_-gneE12_gneE9" edges="-gneE12 -gneE5 gneE9"/>
+
+    <route id="rou_-gneE6_gneE3" edges="-gneE6 -gneE11 gneE3"/>
+    <route id="rou_-gneE6_-gneE10" edges="-gneE6 -gneE11 -gneE10"/>
+    <route id="rou_-gneE6_-gneE7" edges="-gneE6 -gneE5 -gneE8 -gneE7"/>
+    <route id="rou_-gneE6_-gneE1" edges="-gneE6 -gneE5 -gneE8 -gneE1"/>
+    <route id="rou_-gneE6_-gneE4" edges="-gneE6 -gneE5 -gneE4"/>
+    <route id="rou_-gneE6_gneE9" edges="-gneE6 -gneE5 gneE9"/>
+    <route id="rou_-gneE6_-gneE12" edges="-gneE6 gneE12"/>
+
+    <route id="rou_-gneE3_-gneE10" edges="-gneE3 -gneE10"/>
+    <route id="rou_-gneE3_-gneE7" edges="-gneE3 -gneE2 -gneE7"/>
+    <route id="rou_-gneE3_-gneE1" edges="-gneE3 -gneE2 -gneE1"/>
+    <route id="rou_-gneE3_-gneE4" edges="-gneE3 -gneE2 gneE8 -gneE4"/>
+    <route id="rou_-gneE3_gneE9" edges="-gneE3 -gneE2 gneE8 gneE9"/>
+    <route id="rou_-gneE3_-gneE12" edges="-gneE3 gneE11 gneE12"/>
+    <route id="rou_-gneE3_gneE6" edges="-gneE3 gneE11 gneE6"/>
+
+    <route id="rou_gneE10_-gneE7" edges="gneE10 -gneE2 -gneE7"/>
+    <route id="rou_gneE10_-gneE1" edges="gneE10 -gneE2 -gneE1"/>
+    <route id="rou_gneE10_-gneE4" edges="gneE10 -gneE2 gneE8 -gneE4"/>
+    <route id="rou_gneE10_gneE9" edges="gneE10 -gneE2 gneE8 gneE9"/>
+    <route id="rou_gneE10_gneE12" edges="gneE10 gneE11 gneE12"/>
+    <route id="rou_gneE10_gneE6" edges="gneE10 gneE11 gneE6"/>
+    <route id="rou_gneE10_gneE3" edges="gneE10 gneE3"/>
+
+    <route id="rou_gneE7_-gneE1" edges="gneE7 -gneE1"/>
+    <route id="rou_gneE72_-gneE4" edges="gneE7 gneE8 -gneE4"/>
+    <route id="rou_gneE7_gneE9" edges="gneE7 gneE8 gneE9"/>
+    <route id="rou_gneE7_gneE12" edges="gneE7 gneE8 gneE5 gneE12"/>
+    <route id="rou_gneE7_gneE6" edges="gneE7 gneE8 gneE5 gneE6"/>
+    <route id="rou_gneE7_gneE3" edges="gneE7 gneE2 gneE3"/>
+    <route id="rou_gneE7_-gneE10" edges="gneE7 gneE2 -gneE10"/>
+
+    <route id="rou_gneE1_-gneE4" edges="gneE1 gneE8 -gneE4"/>
+    <route id="rou_gneE1_gneE9" edges="gneE1 gneE8 gneE9"/>
+    <route id="rou_gneE1_gneE12" edges="gneE1 gneE8 gneE5 gneE12"/>
+    <route id="rou_gneE1_gneE6" edges="gneE1 gneE8 gneE5 gneE6"/>
+    <route id="rou_gneE1_gneE3" edges="gneE1 gneE2 gneE3"/>
+    <route id="rou_gneE1_-gneE10" edges="gneE1 gneE2 -gneE10"/>
+    <route id="rou_gneE1_-gneE7" edges="gneE1 -gneE7"/>
+
+    <route id="rou_gneE4_gneE9" edges="gneE4 gneE9"/>
+    <route id="rou_gneE4_gneE12" edges="gneE4 gneE5 gneE12"/>
+    <route id="rou_gneE4_gneE6" edges="gneE4 gneE5 gneE6"/>
+    <route id="rou_gneE4_gneE3" edges="gneE4 -gneE8 gneE2 gneE3"/>
+    <route id="rou_gneE4_-gneE10" edges="gneE4 -gneE8 gneE2 -gneE10"/>
+    <route id="rou_gneE4_-gneE7" edges="gneE4 -gneE8 -gneE7"/>
+    <route id="rou_gneE4_-gneE1" edges="gneE4 -gneE8 -gneE1"/>
+
+    <calibrator id="calibrator_-gneE12_3" edge="-gneE12" pos="0.00">
+        <flow begin="0.0" departPos="free" end="4.0" route="rou_-gneE12_gneE6" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="4.0" departPos="free" end="8.0" route="rou_-gneE12_gneE3" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="8.0" departPos="free" end="12.0" route="rou_-gneE12_-gneE10" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="12.0" departPos="free" end="16.0" route="rou_-gneE12_-gneE7" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="16.0" departPos="free" end="20.0" route="rou_-gneE12_-gneE1" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="24.0" departPos="free" end="28.0" route="rou_-gneE12_-gneE4" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="28.0" departPos="free" end="32.0" route="rou_-gneE12_gneE9" type="veh_a0" vehsPerHour="2000"/>
+    </calibrator>
+
+    <calibrator id="calibrator_-gneE3_5" edge="-gneE3" pos="0.00">
+        <flow begin="0.0" departPos="free" end="4.0" route="rou_-gneE3_-gneE10" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="4.0" departPos="free" end="8.0" route="rou_-gneE3_-gneE7" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="8.0" departPos="free" end="12.0" route="rou_-gneE3_-gneE1" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="12.0" departPos="free" end="16.0" route="rou_-gneE3_-gneE4" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="16.0" departPos="free" end="20.0" route="rou_-gneE3_gneE9" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="24.0" departPos="free" end="28.0" route="rou_-gneE3_-gneE12" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="28.0" departPos="free" end="32.0" route="rou_-gneE3_gneE6" type="veh_a0" vehsPerHour="2000"/>
+
+    </calibrator>
+
+    <calibrator id="calibrator_-gneE6_4" edge="-gneE6" pos="0.00">
+        <flow begin="0.0" departPos="free" end="4.0" route="rou_-gneE6_gneE3" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="4.0" departPos="free" end="8.0" route="rou_-gneE6_-gneE10" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="8.0" departPos="free" end="12.0" route="rou_-gneE6_-gneE7" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="12.0" departPos="free" end="16.0" route="rou_-gneE6_-gneE1" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="16.0" departPos="free" end="20.0" route="rou_-gneE6_-gneE4" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="24.0" departPos="free" end="28.0" route="rou_-gneE6_gneE9" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="28.0" departPos="free" end="32.0" route="rou_-gneE6_-gneE12" type="veh_a0" vehsPerHour="2000"/>
+    </calibrator>
+
+    <calibrator id="calibrator_-gneE9_2" edge="-gneE9" pos="0.00">
+        <flow begin="0.0" departPos="free" end="4.0" route="rou_-gneE9_-gneE12" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="4.0" departPos="free" end="8.0" route="rou_-gneE9_gneE6" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="8.0" departPos="free" end="12.0" route="rou_-gneE9_gneE3" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="12.0" departPos="free" end="16.0" route="rou_-gneE9_-gneE10" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="16.0" departPos="free" end="20.0" route="rou_-gneE9_-gneE7" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="24.0" departPos="free" end="28.0" route="rou_-gneE9_-gneE1" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="28.0" departPos="free" end="32.0" route="rou_-gneE9_-gneE4" type="veh_a0" vehsPerHour="2000"/>
+    </calibrator>
+
+    <calibrator id="calibrator_gneE10_6" edge="gneE10" pos="0.00">
+        <flow begin="0.0" departPos="free" end="4.0" route="rou_gneE10_-gneE7" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="4.0" departPos="free" end="8.0" route="rou_gneE10_-gneE1" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="8.0" departPos="free" end="12.0" route="rou_gneE10_-gneE4" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="12.0" departPos="free" end="16.0" route="rou_gneE10_gneE9" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="16.0" departPos="free" end="20.0" route="rou_gneE10_gneE12" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="24.0" departPos="free" end="28.0" route="rou_gneE10_gneE6" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="28.0" departPos="free" end="32.0" route="rou_gneE10_gneE3" type="veh_a0" vehsPerHour="2000"/>
+    </calibrator>
+
+    <calibrator id="calibrator_gneE1_0" edge="gneE1" pos="0.00">
+        <flow begin="0.0" departPos="free" end="4.0" route="rou_gneE1_-gneE4" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="4.0" departPos="free" end="8.0" route="rou_gneE1_gneE9" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="8.0" departPos="free" end="12.0" route="rou_gneE1_gneE12" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="12.0" departPos="free" end="16.0" route="rou_gneE1_gneE6" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="16.0" departPos="free" end="20.0" route="rou_gneE1_gneE3" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="24.0" departPos="free" end="28.0" route="rou_gneE1_-gneE10" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="28.0" departPos="free" end="32.0" route="rou_gneE1_-gneE7" type="veh_a0" vehsPerHour="2000"/>
+    </calibrator>
+
+    <calibrator id="calibrator_gneE4_1" edge="gneE4" pos="0.00">
+        <flow begin="0.0" departPos="free" end="4.0" route="rou_gneE4_gneE9" type="veh_a0" vehsPerHour="5000"/>
+        <flow begin="4.0" departPos="free" end="8.0" route="rou_gneE4_gneE12" type="veh_a0" vehsPerHour="5000"/>
+        <flow begin="8.0" departPos="free" end="12.0" route="rou_gneE4_gneE6" type="veh_a0" vehsPerHour="5000"/>
+        <flow begin="12.0" departPos="free" end="16.0" route="rou_gneE4_gneE3" type="veh_a0" vehsPerHour="5000"/>
+        <flow begin="16.0" departPos="free" end="20.0" route="rou_gneE4_-gneE10" type="veh_a0" vehsPerHour="5000"/>
+        <flow begin="24.0" departPos="free" end="28.0" route="rou_gneE4_-gneE7" type="veh_a0" vehsPerHour="5000"/>
+        <flow begin="28.0" departPos="free" end="32.0" route="rou_gneE4_-gneE1" type="veh_a0" vehsPerHour="5000"/>
+    </calibrator>
+
+    <calibrator id="calibrator_gneE7_7" edge="gneE7" pos="0.00">
+        <flow begin="0.0" departPos="free" end="4.0" route="rou_gneE7_-gneE1" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="4.0" departPos="free" end="8.0" route="rou_gneE7_-gneE4" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="8.0" departPos="free" end="12.0" route="rou_gneE7_gneE9" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="12.0" departPos="free" end="16.0" route="rou_gneE7_gneE12" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="16.0" departPos="free" end="20.0" route="rou_gneE7_gneE6" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="24.0" departPos="free" end="28.0" route="rou_gneE7_gneE3" type="veh_a0" vehsPerHour="2000"/>
+        <flow begin="28.0" departPos="free" end="32.0" route="rou_gneE7_-gneE10" type="veh_a0" vehsPerHour="2000"/>
+    </calibrator>
+</additional>
