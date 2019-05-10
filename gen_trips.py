@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding=utf-8
 """
-
+input: OD information(vehicle information)
+output: SUMO Trips
 """
 from lxml import etree
 from pathlib import Path

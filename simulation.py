@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding=utf-8
 """
-
+input: route
+output: vehicle information
 """
 import os
 import subprocess
