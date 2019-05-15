@@ -125,15 +125,15 @@ def dijsktra(graph, initial, end):
         weight_to_current_node = shortest_routes[current_node][1]            # weight_to_current_node：destinations中当前节点至起点的距离权重
 
         for next_node in destinations:
-            weight = graph.weights[(current_node, next_node)] + weight_to_current_node          # next_node的weight为当前节点至下一节点的距离权重与起点至当前节点的距离权重之和
+            weight = graph.weights[(current_node, next_node)] + weight_to_current_node          # weight：next_node的weight为当前节点至下一节点的距离权重与起点至当前节点的距离权重之和
 
             # 下一节点若不在shortest_routes中，则加入shortest_routes；若已经在，则对比旧的weight并更新shortest_paths
             if next_node not in shortest_routes:
                 shortest_routes[next_node] = (current_node, weight)
             else:
                 current_shortest_weight = shortest_routes[next_node][1]
-                if current_shortest_weight > weight:
-                    shortest_routes[next_node] = (current_node, weight)
+                if current_shortest_weight > weight:            # 若上一代的理论最短路径（current_shortest_weight）大于本代计算的最短路径（weight），则更新
+                    shortest_routes[next_node] = (current_node, weight)         # 下一节点的最短路径更新为当前节点和距离权重
 
         next_destinations = {node: shortest_routes[node] for node in shortest_routes if node not in visited}            # next_destinations：shortest_routes中未经过的节点集合
         if not next_destinations:
@@ -146,6 +146,9 @@ def dijsktra(graph, initial, end):
     while current_node is not None:
         route.append(current_node)
         next_node = shortest_routes[current_node][0]
+
+        logger.info("\n/// {} ///\n".format([current_node, next_node]))
+
         current_node = next_node
     # Reverse route
     route = route[::-1]
