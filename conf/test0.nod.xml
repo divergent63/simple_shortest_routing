@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/amitran/network.xsd">
+    <node id="0" type="deadEnd"/>
+    <node id="1" type="deadEnd"/>
+    <node id="2" type="deadEnd"/>
+    <node id="3" type="deadEnd"/>
+    <node id="4" type="deadEnd"/>
+    <node id="5" type="trafficLight"/>
+    <node id="6" type="trafficLight"/>
+    <node id="7" type="deadEnd"/>
+    <node id="8" type="deadEnd"/>
+    <node id="9" type="trafficLight"/>
+    <node id="10" type="trafficLight"/>
+    <node id="11" type="deadEnd"/>
+    <link id="0" from="5" to="4" roadClass="3" length="57196" speedLimitKmh="50" laneNr="1"/>
+    <link id="1" from="6" to="2" roadClass="3" length="22437" speedLimitKmh="50" laneNr="1"/>
+    <link id="2" from="10" to="6" roadClass="3" length="50227" speedLimitKmh="50" laneNr="1"/>
+    <link id="3" from="3" to="10" roadClass="3" length="196235" speedLimitKmh="50" laneNr="1"/>
+    <link id="4" from="6" to="5" roadClass="3" length="37672" speedLimitKmh="50" laneNr="1"/>
+    <link id="5" from="7" to="6" roadClass="3" length="72591" speedLimitKmh="50" laneNr="1"/>
+    <link id="6" from="9" to="8" roadClass="3" length="82999" speedLimitKmh="50" laneNr="1"/>
+    <link id="7" from="10" to="9" roadClass="3" length="34833" speedLimitKmh="50" laneNr="1"/>
+    <link id="8" from="11" to="10" roadClass="3" length="153541" speedLimitKmh="50" laneNr="1"/>
+    <link id="9" from="5" to="0" roadClass="3" length="33992" speedLimitKmh="50" laneNr="1"/>
+    <link id="10" from="9" to="5" roadClass="3" length="22238" speedLimitKmh="50" laneNr="1"/>
+    <link id="11" from="1" to="9" roadClass="3" length="104368" speedLimitKmh="50" laneNr="1"/>
+    <link id="12" from="4" to="5" roadClass="3" length="57196" speedLimitKmh="50" laneNr="1"/>
+    <link id="13" from="2" to="6" roadClass="3" length="22437" speedLimitKmh="50" laneNr="1"/>
+    <link id="14" from="6" to="10" roadClass="3" length="50227" speedLimitKmh="50" laneNr="1"/>
+    <link id="15" from="10" to="3" roadClass="3" length="200688" speedLimitKmh="50" laneNr="1"/>
+    <link id="16" from="5" to="6" roadClass="3" length="37672" speedLimitKmh="50" laneNr="1"/>
+    <link id="17" from="6" to="7" roadClass="3" length="72591" speedLimitKmh="50" laneNr="1"/>
+    <link id="18" from="8" to="9" roadClass="3" length="82999" speedLimitKmh="50" laneNr="1"/>
+    <link id="19" from="9" to="10" roadClass="3" length="34833" speedLimitKmh="50" laneNr="1"/>
+    <link id="20" from="10" to="11" roadClass="3" length="153541" speedLimitKmh="50" laneNr="1"/>
+    <link id="21" from="0" to="5" roadClass="3" length="33992" speedLimitKmh="50" laneNr="1"/>
+    <link id="22" from="5" to="9" roadClass="3" length="22238" speedLimitKmh="50" laneNr="1"/>
+    <link id="23" from="9" to="1" roadClass="3" length="104368" speedLimitKmh="50" laneNr="1"/>
+</network>
